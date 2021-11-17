@@ -13,8 +13,8 @@
             <p class="post__content__body">{{ !showFullPostBody ? post.body.substring(0,100) + '...' : post.body }}</p>
             <button class="post__content__button" @click="showFullPostBody = !showFullPostBody">
                 <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.99989 3.99995L1 3.99995" stroke="#6366F1" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M5.77336 0.786982L8.99999 3.99974L5.77336 7.21303" stroke="#6366F1" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.99989 3.99995L1 3.99995" stroke="#F43F5E" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.77336 0.786982L8.99999 3.99974L5.77336 7.21303" stroke="#F43F5E" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 {{ !showFullPostBody ? 'Show more' : 'Show less' }}
             </button>
@@ -90,6 +90,7 @@ export default {
         &__button {
             color: $color-accent;
             font-weight: 600;
+            font-size: .8rem;
             background: none;
             border: none;
             display: flex;

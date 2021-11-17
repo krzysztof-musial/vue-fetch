@@ -49,6 +49,9 @@ const store = createStore({
         getPosts: (state) => {
             return state.posts
         },
+        getUsers: (state) => {
+            return state.users
+        },
         getUser: (state) => (id) => {
             return state.users.find(user => user.id === id)
         },

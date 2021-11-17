@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Zadanie rekrutacyjne, <a href="https://github.com/krzysztofpiotrmusial/vue-fetch">GitHub</a>.</p>
+        <p>Zadanie rekrutacyjne, <a href="https://github.com/krzysztofpiotrmusial/vue-fetch" target="__blank">GitHub</a>.</p>
     </footer>
 </template>
 
